@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         }
     fun calculatorClick(b: View){
         var bstr = b.tag.toString()
+        if 
         if(bstr.toIntOrNull() != null){
             addNumber(bstr)
             return}
